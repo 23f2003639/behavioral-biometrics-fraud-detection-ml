@@ -1,32 +1,48 @@
 # Behavioral Biometrics-Based Fraud Detection for Digital Payments
 
-This repository contains my individual machine learning contributions to a collaborative research project titled:
+This repository contains my machine learning contributions to a research project focused on fraud detection in digital payment systems using behavioral biometrics.
+
+The project explores both supervised and unsupervised machine learning approaches to detect fraudulent behavior based on user interaction patterns.
+
+---
+
+## Models Implemented
+
+### 1. XGBoost Fraud Detection
+- Supervised learning model trained on transaction-level data.
+- Used to classify transactions as fraudulent or non-fraudulent.
+- Evaluated using classification report, ROC–AUC score, and confusion matrix.
+
+### 2. Isolation Forest Behavioral Anomaly Detection
+- Unsupervised anomaly detection model.
+- Trained on behavioral biometric features such as keystroke and interaction patterns.
+- Anomalies are mapped to potential fraud cases.
+- Evaluated using confusion matrix, ROC–AUC, and anomaly score analysis.
+
+---
+
+## Repository Structure
+
+- `notebooks/` – Jupyter/Colab notebooks containing model implementation.
+- `data/` – Dataset used for experimentation.
+- `docs/` – Documentation of model pipeline and methodology.
+
+---
+
+## Research Context
+
+This work is part of an academic research project titled:
 
 **A Multi-Layered Security Framework for Digital Payments: Behavioral Biometrics-Based Fraud Detection Using Machine Learning**
 
-## Project Description
+The paper is currently unpublished.  
+This repository documents my individual contributions to the machine learning components of the project.
 
-This research project proposes a multi-layered security framework to enhance digital payment systems by combining behavioral biometrics with machine learning–based fraud detection. The approach focuses on identifying fraudulent activities by analyzing transaction patterns and behavioral deviations from normal user activity.
+---
 
-My contribution to the project focuses on the machine learning layer of the framework. I worked on data preprocessing, feature engineering, and the development and evaluation of fraud detection models. Specifically, I implemented supervised and unsupervised machine learning techniques to detect fraudulent and anomalous behavior in digital payment transactions.
-
-This repository serves as a companion repository and includes only the machine learning components developed by me as part of the collaborative research work.
-
-## My Contribution
-
-- Data preprocessing and feature engineering
-- Development and evaluation of machine learning models:
-  - **XGBoost** for transaction-based fraud detection
-  - **Isolation Forest** for behavioral anomaly detection
-- Model performance evaluation using standard classification metrics
-
-## Collaboration Note
-
-This work is part of a collaborative academic research project.  
-The complete system implementation, including APIs and system integration, was developed jointly by the project team.
-
-This repository contains **only the machine learning models and analysis developed by me**.
-
-## Related Project Repository
-
-https://github.com/AhamedMuhsin/BiometricAuthApi
+## Tools & Technologies
+- Python
+- pandas, NumPy
+- scikit-learn
+- XGBoost
+- Matplotlib, Seaborn
