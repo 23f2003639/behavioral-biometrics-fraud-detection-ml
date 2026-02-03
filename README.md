@@ -33,7 +33,7 @@ The project explores both supervised and unsupervised machine learning approache
 
 This work is part of an academic research project titled:
 
-**A Multi-Layered Security Framework for Digital Payments: Behavioral Biometrics-Based Fraud Detection Using Machine Learning**
+**"A Multi-Layered Security Framework for Digital Payments: Behavioral Biometrics-Based Fraud Detection Using Machine Learning"**
 
 The paper is currently unpublished.  
 This repository documents my individual contributions to the machine learning components of the project.
